@@ -1,0 +1,37 @@
+/* assets/css/style.css */
+
+/* Warna Background Seluruh Halaman */
+body {
+    background-color: #f8f8f8; /* Off-white / Abu-abu sangat muda */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; (Opsional, jika ingin mengganti font) */
+}
+
+/* Ubah Warna Dasar (Primary Color) */
+.bg-primary {
+    /* Contoh warna Biru Muda/Mint yang Kalem */
+    background-color: #A3D8FF !important; 
+}
+
+/* Ubah warna teks yang ada di atas background primary (misal: di Header) */
+.bg-primary h1, .bg-primary p, .bg-primary a.btn-outline-light {
+    color: #333333 !important; /* Ganti teks header menjadi warna gelap */
+    border-color: #333333 !important; /* Ubah border tombol menjadi gelap */
+}
+
+.bg-primary a.btn-outline-light:hover {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Mengubah warna tombol dasar */
+.btn-primary {
+    background-color: #A3D8FF;
+    border-color: #A3D8FF;
+    color: #333333; /* Warna teks tombol menjadi gelap */
+}
+
+.btn-primary:hover {
+    background-color: #8ac0e8; /* Warna saat di-hover sedikit lebih gelap */
+    border-color: #8ac0e8;
+    opacity: 1; 
+}
